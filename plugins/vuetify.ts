@@ -5,6 +5,7 @@ import "vuetify/styles";
 import type { ThemeDefinition } from "vuetify";
 
 import { createVuetify } from "vuetify";
+import { aliases, mdi } from "vuetify/iconsets/mdi";
 
 const myCustomLightTheme: ThemeDefinition = {
   dark: true,
@@ -20,6 +21,13 @@ export default defineNuxtPlugin((app) => {
       defaultTheme: "myCustomLightTheme",
       themes: {
         myCustomLightTheme,
+      },
+    },
+    icons: {
+      defaultSet: "mdi",
+      aliases,
+      sets: {
+        mdi,
       },
     },
   });
