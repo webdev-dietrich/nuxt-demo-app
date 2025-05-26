@@ -28,6 +28,6 @@
     "lint-staged": "^16.0.0"
   },
   "lint-staged": {
-    "+": "pnpm lint"
+    "*": "pnpm lint"
   }
 }
