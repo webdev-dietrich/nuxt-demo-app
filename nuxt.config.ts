@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) => {
-        // @ts-expect-error "No Error occured"
+        // @ts-expect-error "No Error occurred"
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
