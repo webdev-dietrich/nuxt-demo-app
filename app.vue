@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import { SpeedInsights } from "@vercel/speed-insights/dist/vue/index";
+useHead({
+  script: [
+    {
+      "src": "https://speed.vercel.dev/script.js",
+      "data-sid": "prj_QZgPeH1HakOzLAHRYEVU5Gs5b51h",
+      "defer": true,
+    },
+  ],
+});
 </script>
 
 <template>
-  <SpeedInsights />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
