@@ -1,4 +1,5 @@
 // import this after install `@mdi/font` package
+
 import "ress/ress.css";
 import "@mdi/font/css/materialdesignicons.css";
 import "vuetify/styles";
@@ -11,6 +12,7 @@ import { aliases, mdi } from "vuetify/iconsets/mdi";
 const myCustomLightTheme: ThemeDefinition = {
   dark: true,
   colors: {
+
     "background": "#fff9f9",
     "surface": "#FFFFFF",
     "primary": "#930000",
@@ -21,6 +23,7 @@ const myCustomLightTheme: ThemeDefinition = {
     "info": "#2196F3",
     "success": "#4CAF50",
     "warning": "#FB8C00",
+    primary: "#6200EE",
   },
 };
 
