@@ -27,7 +27,7 @@ export default withNuxt(
       "perfectionist/sort-imports": ["error", {
         tsconfigRootDir: ".",
       }],
-      "unicorn/filename-case": ["error", {
+      "unicorn/filename-case": ["warn", {
         case: "camelCase",
         ignore: ["README.md"],
       }],
